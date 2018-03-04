@@ -1,0 +1,54 @@
+## 1.2.1
+(Updated 03-04-2018 * 1396-12-12)
+### Features
+* Added mi-hamburger
+* Added changelog.md
+* Added readme.md
+### Bug Fixes
+* Moved sample font size to the top of the page
+
+## 1.2 
+(Updated 03-03-2018 - 1396-12-11)
+### Bug Fixes
+* mi-check icon size optimized
+* mi-trash icon vector shape optimized, vector nodes reduced
+* Minor fixes on demo.html
+* Fixed mi-trash icon * reduced nodes and optimized icon.
+### Features
+* Added changelog.txt
+* Added 30 new icons
+	* Added mi-minus
+	* Added mi-plus
+	* Added mi-report
+	* Added mi-bookmark
+	* Added mi-bookmark-filled
+	* Added mi-edit
+	* Added mi-delete
+	* Added mi-print
+	* Added mi-share
+	* Added mi-sort-desc
+	* Added mi-sort-asc
+	* Added mi-star
+	* Added mi-star-filled
+	* Added mi-star-half
+	* Added mi-trash
+	* Added mi-trash-filled
+	* Added mi-left
+	* Added mi-right
+	* Added mi-up
+	* Added mi-left-filled
+	* Added mi-right-filled
+	* Added mi-up-filled
+	* Added mi-down-filled
+	* Added mi-arrow-down
+	* Added mi-arrow-up
+	* Added mi-arrow-left
+	* Added mi-arrow-right
+	* Added mi-sort-down
+	* Added mi-sort-up
+	* Added mi-checked-small
+	* Added mi-checked-small-filled
+* Added metadata and copyright to rendered fonts.
+* Changed CSS selectors to class selectors instead of <i> for wider range of icon usage by just applying class.
+
+
