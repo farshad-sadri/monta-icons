@@ -1,10 +1,10 @@
 /**
 *
 *	Name:			Monta Icons Font
-*	Version:		1.1.1
+*	Version:		1.2.2
 *	Author:			Farshad Sadri (farshadsadri.com)
-*	Created on:		Feb 28, 2018
-*	Updated on:		Nov 14, 2017
+*	Updated on:		March 05, 2018
+*	Created on:		Nov 14, 2017
 *	Website:		http://monta.ir
 *	Copyright:		Commercial/Proprietary Software, All Rights Reserved by Monta.ir
 */
@@ -31,48 +31,52 @@
 
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;}
+  -moz-osx-font-smoothing: grayscale;
+}
 
-.mi-monta:before { content: "\e900";}
-.mi-mini-monta:before { content: "\e901";}
-.mi-mini-monta-filled:before {   content: "\e902";}
-.mi-minus:before { content: "\e90e";}
-.mi-plus:before { content: "\e90f";}
-.mi-cross:before { content: "\e90a";}
-.mi-checked-small:before { content: "\e958";}
-.mi-checked-small-filled:before { content: "\e959";}
-.mi-check:before { content: "\e909";}
-.mi-heart:before { content: "\e90b";}
-.mi-report:before { content: "\e910";}
-.mi-heart-filled:before { content: "\e90c";}
-.mi-bookmark:before { content: "\e911";}
-.mi-bookmark-filled:before { content: "\e912";}
-.mi-edit:before { content: "\e913";}
-.mi-delete:before { content: "\e914";}
-.mi-print:before { content: "\e915";}
-.mi-share:before { content: "\e916";}
-.mi-sort-desc:before { content: "\e917";}
-.mi-sort-asc:before { content: "\e918";}
-.mi-star:before { content: "\e919";}
-.mi-star-filled:before { content: "\e91a";}
-.mi-star-half:before { content: "\e91b";}
-.mi-trash:before { content: "\e91c";}
-.mi-trash-filled:before { content: "\e94e";}
-.mi-down:before { content: "\e903";}
-.mi-left:before { content: "\e94f";}
-.mi-right:before { content: "\e950";}
-.mi-up:before { content: "\e951";}
-.mi-down-filled:before { content: "\e90d";}
-.mi-left-filled:before { content: "\e952";}
-.mi-right-filled:before { content: "\e953";}
-.mi-up-filled:before { content: "\e954";}
-.mi-arrow-down:before { content: "\e955";}
-.mi-arrow-up:before { content: "\e956";}
-.mi-arrow-left:before { content: "\e904";}
-.mi-arrow-right:before { content: "\e957";}
-.mi-frame:before { content: "\e905";}
-.mi-search:before { content: "\e906";}
-.mi-zoom-in:before { content: "\e907";}
-.mi-zoom-out:before { content: "\e908";}
-.mi-sort-down:before { content: "\e95a";}
-.mi-sort-up:before { content: "\e95b";}
+.mi-monta:before { content: "\e900"}
+.mi-mini-monta:before { content: "\e901"}
+.mi-mini-monta-filled:before { content: "\e902"}
+.mi-minus:before { content: "\e90e"}
+.mi-plus:before { content: "\e90f"}
+.mi-cross:before { content: "\e90a"}
+.mi-checked-small:before { content: "\e958"}
+.mi-checked-small-filled:before { content: "\e959"}
+.mi-check:before { content: "\e909"}
+.mi-heart:before { content: "\e90b"}
+.mi-report:before { content: "\e910"}
+.mi-heart-filled:before { content: "\e90c"}
+.mi-bookmark:before { content: "\e911"}
+.mi-bookmark-filled:before { content: "\e912"}
+.mi-edit:before { content: "\e913"}
+.mi-delete:before { content: "\e914"}
+.mi-print:before { content: "\e915"}
+.mi-share:before { content: "\e916"}
+.mi-sort-desc:before { content: "\e917"}
+.mi-sort-asc:before { content: "\e918"}
+.mi-star:before { content: "\e919"}
+.mi-star-filled:before { content: "\e91a"}
+.mi-star-half:before { content: "\e91b"}
+.mi-trash:before { content: "\e91c"}
+.mi-trash-filled:before { content: "\e94e"}
+.mi-down:before { content: "\e903"}
+.mi-left:before { content: "\e94f"}
+.mi-right:before { content: "\e950"}
+.mi-up:before { content: "\e951"}
+.mi-down-filled:before { content: "\e90d"}
+.mi-left-filled:before { content: "\e952"}
+.mi-right-filled:before { content: "\e953"}
+.mi-up-filled:before { content: "\e954"}
+.mi-arrow-down:before { content: "\e955"}
+.mi-arrow-up:before { content: "\e956"}
+.mi-arrow-left:before { content: "\e904"}
+.mi-arrow-right:before { content: "\e957"}
+.mi-frame:before { content: "\e905"}
+.mi-search:before { content: "\e906"}
+.mi-zoom-in:before { content: "\e907"}
+.mi-zoom-out:before { content: "\e908"}
+.mi-sort-down:before { content: "\e95a"}
+.mi-sort-up:before { content: "\e95b"}
+.mi-hamburger:before { content: "\e91d"}
+.mi-home:before { content: "\e91e"}
+.mi-home-filled:before { content: "\e91f"}

@@ -1,14 +1,20 @@
-## 1.2.1
-(Updated 03-04-2018 * 1396-12-12)
+## 1.2.2
+(Updated 03-05-2018 * 1396-12-14)
 ### Features
 * Added mi-hamburger
+* Added mi-home
+* Added mi-home-filled
+
+## 1.2.1
+(Updated 03-04-2018 * 1396-12-13)
+### Features
 * Added changelog.md
 * Added readme.md
 ### Bug Fixes
 * Moved sample font size to the top of the page
 
 ## 1.2 
-(Updated 03-03-2018 - 1396-12-11)
+(Updated 03-03-2018 - 1396-12-12)
 ### Bug Fixes
 * mi-check icon size optimized
 * mi-trash icon vector shape optimized, vector nodes reduced
