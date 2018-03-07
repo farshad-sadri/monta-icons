@@ -1,3 +1,20 @@
+## 1.3.1
+(Updated 03-07-2018 * 1396-12-16)
+### Features
+* Added mi-login
+* Added mi-logout
+
+
+## 1.3.0
+(Updated 03-06-2018 * 1396-12-15)
+### Features
+* Added .mi modifier class
+* Added font size modifiers as .mi.is-1x, .mi.is-2x, .mi.is-3x, .mi.is-4x
+* Added spin modifier as .mi.has-spin
+* Added pulse spin modifier .mi.has-pulse
+* Added pulse effect for notifications or attention modifier by .mi.is-pulse
+
+
 ## 1.2.2
 (Updated 03-05-2018 * 1396-12-14)
 ### Features

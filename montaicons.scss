@@ -1,0 +1,273 @@
+@import "variables";
+
+@font-face {
+  font-family: 'Monta-Icons';
+  src:  url('#{$icomoon-font-path}/Monta-Icons.eot?hbze0l');
+  src:  url('#{$icomoon-font-path}/Monta-Icons.eot?hbze0l#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/Monta-Icons.ttf?hbze0l') format('truetype'),
+    url('#{$icomoon-font-path}/Monta-Icons.woff?hbze0l') format('woff'),
+    url('#{$icomoon-font-path}/Monta-Icons.svg?hbze0l#Monta-Icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="mi-"], [class*=" mi-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Monta-Icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@function unicode($str) {
+  @return unquote("\"") + $str + unquote("\"");
+}
+
+.mi-monta {
+  &:before {
+    content: unicode($mi-monta); 
+  }
+}
+.mi-mini-monta {
+  &:before {
+    content: unicode($mi-mini-monta); 
+  }
+}
+.mi-mini-monta-filled {
+  &:before {
+    content: unicode($mi-mini-monta-filled); 
+  }
+}
+.mi-minus {
+  &:before {
+    content: unicode($mi-minus); 
+  }
+}
+.mi-plus {
+  &:before {
+    content: unicode($mi-plus); 
+  }
+}
+.mi-cross {
+  &:before {
+    content: unicode($mi-cross); 
+  }
+}
+.mi-checked-small {
+  &:before {
+    content: unicode($mi-checked-small); 
+  }
+}
+.mi-checked-small-filled {
+  &:before {
+    content: unicode($mi-checked-small-filled); 
+  }
+}
+.mi-check {
+  &:before {
+    content: unicode($mi-check); 
+  }
+}
+.mi-heart {
+  &:before {
+    content: unicode($mi-heart); 
+  }
+}
+.mi-report {
+  &:before {
+    content: unicode($mi-report); 
+  }
+}
+.mi-heart-filled {
+  &:before {
+    content: unicode($mi-heart-filled); 
+  }
+}
+.mi-bookmark {
+  &:before {
+    content: unicode($mi-bookmark); 
+  }
+}
+.mi-bookmark-filled {
+  &:before {
+    content: unicode($mi-bookmark-filled); 
+  }
+}
+.mi-edit {
+  &:before {
+    content: unicode($mi-edit); 
+  }
+}
+.mi-delete {
+  &:before {
+    content: unicode($mi-delete); 
+  }
+}
+.mi-print {
+  &:before {
+    content: unicode($mi-print); 
+  }
+}
+.mi-share {
+  &:before {
+    content: unicode($mi-share); 
+  }
+}
+.mi-sort-desc {
+  &:before {
+    content: unicode($mi-sort-desc); 
+  }
+}
+.mi-sort-asc {
+  &:before {
+    content: unicode($mi-sort-asc); 
+  }
+}
+.mi-star {
+  &:before {
+    content: unicode($mi-star); 
+  }
+}
+.mi-star-filled {
+  &:before {
+    content: unicode($mi-star-filled); 
+  }
+}
+.mi-star-half {
+  &:before {
+    content: unicode($mi-star-half); 
+  }
+}
+.mi-trash {
+  &:before {
+    content: unicode($mi-trash); 
+  }
+}
+.mi-trash-filled {
+  &:before {
+    content: unicode($mi-trash-filled); 
+  }
+}
+.mi-down {
+  &:before {
+    content: unicode($mi-down); 
+  }
+}
+.mi-left {
+  &:before {
+    content: unicode($mi-left); 
+  }
+}
+.mi-right {
+  &:before {
+    content: unicode($mi-right); 
+  }
+}
+.mi-up {
+  &:before {
+    content: unicode($mi-up); 
+  }
+}
+.mi-down-filled {
+  &:before {
+    content: unicode($mi-down-filled); 
+  }
+}
+.mi-left-filled {
+  &:before {
+    content: unicode($mi-left-filled); 
+  }
+}
+.mi-right-filled {
+  &:before {
+    content: unicode($mi-right-filled); 
+  }
+}
+.mi-up-filled {
+  &:before {
+    content: unicode($mi-up-filled); 
+  }
+}
+.mi-arrow-down {
+  &:before {
+    content: unicode($mi-arrow-down); 
+  }
+}
+.mi-arrow-up {
+  &:before {
+    content: unicode($mi-arrow-up); 
+  }
+}
+.mi-arrow-left {
+  &:before {
+    content: unicode($mi-arrow-left); 
+  }
+}
+.mi-arrow-right {
+  &:before {
+    content: unicode($mi-arrow-right); 
+  }
+}
+.mi-frame {
+  &:before {
+    content: unicode($mi-frame); 
+  }
+}
+.mi-search {
+  &:before {
+    content: unicode($mi-search); 
+  }
+}
+.mi-zoom-in {
+  &:before {
+    content: unicode($mi-zoom-in); 
+  }
+}
+.mi-zoom-out {
+  &:before {
+    content: unicode($mi-zoom-out); 
+  }
+}
+.mi-sort-down {
+  &:before {
+    content: unicode($mi-sort-down); 
+  }
+}
+.mi-sort-up {
+  &:before {
+    content: unicode($mi-sort-up); 
+  }
+}
+.mi-hamburger {
+  &:before {
+    content: unicode($mi-hamburger); 
+  }
+}
+.mi-home {
+  &:before {
+    content: unicode($mi-home); 
+  }
+}
+.mi-home-filled {
+  &:before {
+    content: unicode($mi-home-filled); 
+  }
+}
+.mi-login {
+  &:before {
+    content: unicode($mi-login); 
+  }
+}
+.mi-logout {
+  &:before {
+    content: unicode($mi-logout); 
+  }
+}
+
