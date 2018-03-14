@@ -1,3 +1,14 @@
+## 1.3.2
+(Updated 03-14-2018 * 1396-12-23)
+### Features
+* Added mi-telegram
+* Added mi-instagram
+* Added mi-twitter
+* Added mi-aparat
+* Added mi-linkedin
+* Added mi-facebook
+
+
 ## 1.3.1
 (Updated 03-07-2018 * 1396-12-16)
 ### Features
