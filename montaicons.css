@@ -1,9 +1,9 @@
 /**
 *
 *	Name:			Monta Icons Font
-*	Version:		1.3.2.1
+*	Version:		1.3.3
 *	Author:			Farshad Sadri (farshadsadri.com)
-*	Updated on:		March 14, 2018
+*	Updated on:		March 26, 2018
 *	Created on:		Nov 14, 2017
 *	Website:		http://monta.ir
 *	License:		Apache License Version 2.0
@@ -114,9 +114,16 @@
 .mi-home-filled:before { content: "\e91f"}
 .mi-login:before { content: "\e920";}
 .mi-logout:before { content: "\e921";}
-.mi-telegram:before { content: "\e922";}
-.mi-instagram:before { content: "\e923";}
-.mi-twitter:before { content: "\e924";}
-.mi-aparat:before { content: "\e925";}
-.mi-linkedin:before { content: "\e926";}
-.mi-facebook:before { content: "\e927";}
+.mi-instagram:before { content: "\e922";}
+.mi-telegram:before { content: "\e923";}
+.mi-aparat:before { content: "\e924";}
+.mi-twitter:before { content: "\e925";}
+.mi-facebook:before { content: "\e926";}
+.mi-linkedin:before { content: "\e927";}
+.mi-cog:before { content: "\e928";}
+.mi-dots:before { content: "\e929";}
+.mi-date-year:before { content: "\e92a";}
+.mi-report-filled:before { content: "\e92b";}
+.mi-monta-run-filled:before { content: "\e92c";}
+.mi-monta-run:before { content: "\e92d";}
+.mi-stats:before { content: "\e92e";}

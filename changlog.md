@@ -1,3 +1,28 @@
+## 1.3.3
+(Updated 03-26-2018 - 1397-01-06)
+### Features
+- [Added] `mi-dots`
+- [Added] `mi-date-year`
+- [Added] `mi-report-filled`
+- [Added] `mi-monta-run-filled`
+- [Added] `mi-monta-run`
+
+
+
+## 1.3.2.2
+(Updated 03-14-2018 - 1396-12-23)
+### Bug Fixes
+- [Fixed] wrong character assignments on `telegram`, `aparat`, `instagram`, `twitter`,  `aparat`,  `linkedin`, `facebook`
+
+
+
+## 1.3.2.1
+(Updated 03-14-2018 - 1396-12-23)
+### Features
+- Added `mi-cog`
+
+
+
 ## 1.3.2.1
 (Updated 03-14-2018 - 1396-12-23)
 ### Bug Fix
