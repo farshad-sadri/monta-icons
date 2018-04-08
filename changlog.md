@@ -1,3 +1,13 @@
+## 1.3.5
+(Updated 04-08-2018 - 1397-01-19)
+### Features
+- [Added] `mi-question-mark`
+
+### Bug Fix
+- [Fixed] SCSS render problem. The styles are sync now.
+
+
+
 ## 1.3.4
 (Updated 03-27-2018 - 1397-01-07)
 ### Features
