@@ -1,3 +1,10 @@
+## 1.3.4
+(Updated 03-27-2018 - 1397-01-07)
+### Features
+- [Added] `mi-stats`
+
+
+
 ## 1.3.3
 (Updated 03-26-2018 - 1397-01-06)
 ### Features
