@@ -1,3 +1,12 @@
+## 1.3.6
+(Updated 04-16-2018 - 1397-01-26)
+### Bug Fix
+- [Fixed] `mi-question-mark` direction
+- [Fixed] `mi-login` flipped to add RTL semantic.
+- [Fixed] `mi-logout` flipped to add RTL semantic.
+
+
+
 ## 1.3.5
 (Updated 04-08-2018 - 1397-01-19)
 ### Features
