@@ -1,3 +1,12 @@
+## 1.3.7
+(Updated 05-01-2018 - 1397-02-11)
+### Features
+- [Added] `mi-play`
+- [Added] `mi-undo`
+- [Added] `mi-retry`
+
+
+
 ## 1.3.6
 (Updated 04-16-2018 - 1397-01-26)
 ### Bug Fix
