@@ -3,6 +3,8 @@
 ### Features
 - [Added] `mi-notes`
 
+### Bug Fix
+- [Fixed] `index.html` : demo character on right of each icon not displaying in the correct font.
 
 
 (Updated 05-01-2018 - 1397-02-11)
