@@ -2,10 +2,11 @@
 (Updated 06-09-2018 - 1397-03-19)
 ### Features
 - [Added] `mi-notes`
+- [Added] `mi-notes-filled`
 
 ### Bug Fix
 - [Fixed] `index.html` : demo character on right of each icon not displaying in the correct font.
-
+- [Fixed] removed unicode function from font variables in `variables.scss`
 
 (Updated 05-01-2018 - 1397-02-11)
 ### Features

@@ -406,6 +406,12 @@ $mi-version: "1.3.7";
 }
 .mi-notes {
   &:before {
-    content: $mi-notes;
+    content:  unicode($mi-notes);
   }
 }
+.mi-notes-filled {
+  &:before {
+    content: $mi-notes-filled;
+  }
+}
+

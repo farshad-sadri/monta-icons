@@ -79,201 +79,204 @@
   to {
     box-shadow: 0 0 0 1em rgba(232, 76, 61, 0); } }
 .mi-monta:before {
-  content: "\e900"; }
+  content: ""; }
 
 .mi-mini-monta:before {
-  content: "\e901"; }
+  content: ""; }
 
 .mi-mini-monta-filled:before {
-  content: "\e902"; }
+  content: ""; }
 
 .mi-minus:before {
-  content: "\e90e"; }
+  content: ""; }
 
 .mi-plus:before {
-  content: "\e90f"; }
+  content: ""; }
 
 .mi-cross:before {
-  content: "\e90a"; }
+  content: ""; }
 
 .mi-checked-small:before {
-  content: "\e958"; }
+  content: ""; }
 
 .mi-checked-small-filled:before {
-  content: "\e959"; }
+  content: ""; }
 
 .mi-check:before {
-  content: "\e909"; }
+  content: ""; }
 
 .mi-heart:before {
-  content: "\e90b"; }
+  content: ""; }
 
 .mi-report:before {
-  content: "\e910"; }
+  content: ""; }
 
 .mi-heart-filled:before {
-  content: "\e90c"; }
+  content: ""; }
 
 .mi-bookmark:before {
-  content: "\e911"; }
+  content: ""; }
 
 .mi-bookmark-filled:before {
-  content: "\e912"; }
+  content: ""; }
 
 .mi-edit:before {
-  content: "\e913"; }
+  content: ""; }
 
 .mi-delete:before {
-  content: "\e914"; }
+  content: ""; }
 
 .mi-print:before {
-  content: "\e915"; }
+  content: ""; }
 
 .mi-share:before {
-  content: "\e916"; }
+  content: ""; }
 
 .mi-sort-desc:before {
-  content: "\e917"; }
+  content: ""; }
 
 .mi-sort-asc:before {
-  content: "\e918"; }
+  content: ""; }
 
 .mi-star:before {
-  content: "\e919"; }
+  content: ""; }
 
 .mi-star-filled:before {
-  content: "\e91a"; }
+  content: ""; }
 
 .mi-star-half:before {
-  content: "\e91b"; }
+  content: ""; }
 
 .mi-trash:before {
-  content: "\e91c"; }
+  content: ""; }
 
 .mi-trash-filled:before {
-  content: "\e94e"; }
+  content: ""; }
 
 .mi-down:before {
-  content: "\e903"; }
+  content: ""; }
 
 .mi-left:before {
-  content: "\e94f"; }
+  content: ""; }
 
 .mi-right:before {
-  content: "\e950"; }
+  content: ""; }
 
 .mi-up:before {
-  content: "\e951"; }
+  content: ""; }
 
 .mi-down-filled:before {
-  content: "\e90d"; }
+  content: ""; }
 
 .mi-left-filled:before {
-  content: "\e952"; }
+  content: ""; }
 
 .mi-right-filled:before {
-  content: "\e953"; }
+  content: ""; }
 
 .mi-up-filled:before {
-  content: "\e954"; }
+  content: ""; }
 
 .mi-arrow-down:before {
-  content: "\e955"; }
+  content: ""; }
 
 .mi-arrow-up:before {
-  content: "\e956"; }
+  content: ""; }
 
 .mi-arrow-left:before {
-  content: "\e904"; }
+  content: ""; }
 
 .mi-arrow-right:before {
-  content: "\e957"; }
+  content: ""; }
 
 .mi-frame:before {
-  content: "\e905"; }
+  content: ""; }
 
 .mi-search:before {
-  content: "\e906"; }
+  content: ""; }
 
 .mi-zoom-in:before {
-  content: "\e907"; }
+  content: ""; }
 
 .mi-zoom-out:before {
-  content: "\e908"; }
+  content: ""; }
 
 .mi-sort-down:before {
-  content: "\e95a"; }
+  content: ""; }
 
 .mi-sort-up:before {
-  content: "\e95b"; }
+  content: ""; }
 
 .mi-hamburger:before {
-  content: "\e91d"; }
+  content: ""; }
 
 .mi-home:before {
-  content: "\e91e"; }
+  content: ""; }
 
 .mi-home-filled:before {
-  content: "\e91f"; }
+  content: ""; }
 
 .mi-login:before {
-  content: "\e920"; }
+  content: ""; }
 
 .mi-logout:before {
-  content: "\e921"; }
+  content: ""; }
 
 .mi-instagram:before {
-  content: "\e922"; }
+  content: ""; }
 
 .mi-telegram:before {
-  content: "\e923"; }
+  content: ""; }
 
 .mi-aparat:before {
-  content: "\e924"; }
+  content: ""; }
 
 .mi-twitter:before {
-  content: "\e925"; }
+  content: ""; }
 
 .mi-facebook:before {
-  content: "\e926"; }
+  content: ""; }
 
 .mi-linkedin:before {
-  content: "\e927"; }
+  content: ""; }
 
 .mi-cog:before {
-  content: "\e928"; }
+  content: ""; }
 
 .mi-dots:before {
-  content: "\e929"; }
+  content: ""; }
 
 .mi-date-year:before {
-  content: "\e92a"; }
+  content: ""; }
 
 .mi-report-filled:before {
-  content: "\e92b"; }
+  content: ""; }
 
 .mi-monta-run-filled:before {
-  content: "\e92c"; }
+  content: ""; }
 
 .mi-monta-run:before {
-  content: "\e92d"; }
+  content: ""; }
 
 .mi-stats:before {
-  content: "\e92e"; }
+  content: ""; }
 
 .mi-question-mark:before {
-  content: "\e92f"; }
+  content: ""; }
 
 .mi-play:before {
-  content: "\e930"; }
+  content: ""; }
 
 .mi-undo:before {
-  content: "\e931"; }
+  content: ""; }
 
 .mi-retry:before {
-  content: "\e932"; }
+  content: ""; }
 
 .mi-notes:before {
   content: ""; }
+
+.mi-notes-filled:before {
+  content: ""; }
 
 /*# sourceMappingURL=montaicons.css.map */
