@@ -1,4 +1,10 @@
-## 1.3.7
+## 1.3.8
+(Updated 06-09-2018 - 1397-03-19)
+### Features
+- [Added] `mi-notes`
+
+
+
 (Updated 05-01-2018 - 1397-02-11)
 ### Features
 - [Added] `mi-play`

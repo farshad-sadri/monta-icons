@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**
 *
 *	Name:			Monta Icons Font
@@ -271,5 +272,8 @@
 
 .mi-retry:before {
   content: "\e932"; }
+
+.mi-notes:before {
+  content: ""; }
 
 /*# sourceMappingURL=montaicons.css.map */
