@@ -411,7 +411,162 @@ $mi-version: "1.3.7";
 }
 .mi-notes-filled {
   &:before {
-    content: $mi-notes-filled;
+    content: unicode($mi-notes-filled);
+  }
+}
+.mi-fame-filled {
+  &:before {
+    content: unicode($mi-fame-filled);
+  }
+}
+.mi-fame {
+  &:before {
+    content: unicode($mi-fame);
+  }
+}
+.mi-gift {
+  &:before {
+    content: unicode($mi-gift);
+  }
+}
+.mi-achievement {
+  &:before {
+    content: unicode($mi-achievement);
+  }
+}
+.mi-income {
+  &:before {
+    content: unicode($mi-income);
+  }
+}
+.mi-wallet {
+  &:before {
+    content: unicode($mi-wallet);
+  }
+}
+.mi-exam {
+  &:before {
+    content: unicode($mi-exam);
+  }
+}
+.mi-questions {
+  &:before {
+    content: unicode($mi-questions);
+  }
+}
+.mi-summary {
+  &:before {
+    content: unicode($mi-summary);
+  }
+}
+.mi-book {
+  &:before {
+    content: unicode($mi-book);
+  }
+}
+.mi-bookmark-2 {
+  &:before {
+    content: unicode($mi-bookmark-2);
+  }
+}
+.mi-bookmark-2-filled {
+  &:before {
+    content: unicode($mi-bookmark-2-filled);
+  }
+}
+.mi-muscle {
+  &:before {
+    content: unicode($mi-muscle);
+  }
+}
+.mi-muscle-filled {
+  &:before {
+    content: unicode($mi-muscle-filled);
+  }
+}
+.mi-watched {
+  &:before {
+    content: unicode($mi-watched);
+  }
+}
+.mi-seen {
+  &:before {
+    content: unicode($mi-seen);
+  }
+}
+.mi-share-2 {
+  &:before {
+    content: unicode($mi-share-2);
+  }
+}
+.mi-message {
+  &:before {
+    content: unicode($mi-message);
+  }
+}
+.mi-compose {
+  &:before {
+    content: unicode($mi-compose);
+  }
+}
+.mi-send {
+  &:before {
+    content: unicode($mi-send);
+  }
+}
+.mi-emoji {
+  &:before {
+    content: unicode($mi-emoji);
+  }
+}
+.mi-cameera {
+  &:before {
+    content: unicode($mi-cameera);
+  }
+}
+.mi-clip {
+  &:before {
+    content: unicode($mi-clip);
+  }
+}
+.mi-megaphone {
+  &:before {
+    content: unicode($mi-megaphone);
+  }
+}
+.mi-timer {
+  &:before {
+    content: unicode($mi-timer);
+  }
+}
+.mi-clock {
+  &:before {
+    content: unicode($mi-clock);
+  }
+}
+.mi-hourglass {
+  &:before {
+    content: unicode($mi-hourglass);
+  }
+}
+.mi-calendar {
+  &:before {
+    content: unicode($mi-calendar);
+  }
+}
+.mi-bell {
+  &:before {
+    content: unicode($mi-bell);
+  }
+}
+.mi-pie {
+  &:before {
+    content: unicode($mi-pie);
+  }
+}
+.mi-chart {
+  &:before {
+    content: unicode($mi-chart);
   }
 }
 

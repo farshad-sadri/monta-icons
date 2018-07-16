@@ -1,3 +1,40 @@
+## 1.4.0
+(Updated 07-16-2018 - 1397-04-25)
+### Features
+- [Added] total of 29 icons as follows:
+    - [Added] `mi-fame-filled`
+    - [Added] `mi-fame`
+    - [Added] `mi-gift`
+    - [Added] `mi-achievement`
+    - [Added] `mi-income`
+    - [Added] `mi-wallet`
+    - [Added] `mi-exam`
+    - [Added] `mi-questions`
+    - [Added] `mi-summary`
+    - [Added] `mi-book`
+    - [Added] `mi-bookmark-2`
+    - [Added] `mi-bookmark-2-filled`
+    - [Added] `mi-muscle`
+    - [Added] `mi-muscle-filled`
+    - [Added] `mi-watched`
+    - [Added] `mi-seen`
+    - [Added] `mi-share-2`
+    - [Added] `mi-message`
+    - [Added] `mi-compose`
+    - [Added] `mi-send`
+    - [Added] `mi-emoji`
+    - [Added] `mi-cameera`
+    - [Added] `mi-clip`
+    - [Added] `mi-megaphone`
+    - [Added] `mi-timer`
+    - [Added] `mi-clock`
+    - [Added] `mi-hourglass`
+    - [Added] `mi-calendar`
+    - [Added] `mi-bell`
+
+
+
+
 ## 1.3.8
 (Updated 06-09-2018 - 1397-03-19)
 ### Features
@@ -7,13 +44,6 @@
 ### Bug Fix
 - [Fixed] `index.html` : demo character on right of each icon not displaying in the correct font.
 - [Fixed] removed unicode function from font variables in `variables.scss`
-
-(Updated 05-01-2018 - 1397-02-11)
-### Features
-- [Added] `mi-play`
-- [Added] `mi-undo`
-- [Added] `mi-retry`
-
 
 
 ## 1.3.6
