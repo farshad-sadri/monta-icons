@@ -1,3 +1,14 @@
+## 1.4.1
+(Updated 07-16-2018 - 1397-04-25)
+### Features
+- [Added] `mi-pie`
+- [Added] `mi-chart`
+
+### Bug Fix
+- [Fixed] version information 
+- [Updated] `selection.json`
+
+
 ## 1.4.0
 (Updated 07-16-2018 - 1397-04-25)
 ### Features
