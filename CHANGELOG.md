@@ -1,210 +1,134 @@
-## 1.4.1
-(Updated 07-16-2018 - 1397-04-25)
+
+# Version 2.0
+05-08-2019 - 1398-02-18
+#### Features
+- Added 3 new icons
+	- Added `icon-time`
+	- Added `icon-email`
+	- Added `icon-payment`
+
+
+
+
+## Version 1.3
+04-15-2019 - 1398-01-26
 ### Features
-- [Added] `mi-pie`
-- [Added] `mi-chart`
-
-### Bug Fix
-- [Fixed] version information 
-- [Updated] `selection.json`
+- Added 3 new icons
+	- Added `icon-time`
+	- Added `icon-email`
+	- Added `icon-payment`
 
 
-## 1.4.0
-(Updated 07-16-2018 - 1397-04-25)
+
+## Version 1.3
+04-15-2019 - 1398-01-26
 ### Features
-- [Added] total of 29 icons as follows:
-    - [Added] `mi-fame-filled`
-    - [Added] `mi-fame`
-    - [Added] `mi-gift`
-    - [Added] `mi-achievement`
-    - [Added] `mi-income`
-    - [Added] `mi-wallet`
-    - [Added] `mi-exam`
-    - [Added] `mi-questions`
-    - [Added] `mi-summary`
-    - [Added] `mi-book`
-    - [Added] `mi-bookmark-2`
-    - [Added] `mi-bookmark-2-filled`
-    - [Added] `mi-muscle`
-    - [Added] `mi-muscle-filled`
-    - [Added] `mi-watched`
-    - [Added] `mi-seen`
-    - [Added] `mi-share-2`
-    - [Added] `mi-message`
-    - [Added] `mi-compose`
-    - [Added] `mi-send`
-    - [Added] `mi-emoji`
-    - [Added] `mi-cameera`
-    - [Added] `mi-clip`
-    - [Added] `mi-megaphone`
-    - [Added] `mi-timer`
-    - [Added] `mi-clock`
-    - [Added] `mi-hourglass`
-    - [Added] `mi-calendar`
-    - [Added] `mi-bell`
+- Added 3 new icons
+	- Added `icon-time`
+	- Added `icon-email`
+	- Added `icon-payment`
 
 
 
-
-## 1.3.8
-(Updated 06-09-2018 - 1397-03-19)
+## Version 1.2 
+02-17-2018 - 1397-11-28
 ### Features
-- [Added] `mi-notes`
-- [Added] `mi-notes-filled`
-
-### Bug Fix
-- [Fixed] `index.html` : demo character on right of each icon not displaying in the correct font.
-- [Fixed] removed unicode function from font variables in `variables.scss`
-
-
-## 1.3.6
-(Updated 04-16-2018 - 1397-01-26)
-### Bug Fix
-- [Fixed] `mi-question-mark` direction
-- [Fixed] `mi-login` flipped to add RTL semantic.
-- [Fixed] `mi-logout` flipped to add RTL semantic.
+- Changed `icon-username` icon 
+- Added 7 new icons
+	- Added `icon-counter`
+	- Added `icon-instagram`
+	- Added `icon-twitter`
+	- Added `icon-pinterest`
+	- Added `icon-aparat`
+	- Added `icon-linkedin`
+	- Added `icon-telegram`
 
 
-
-## 1.3.5
-(Updated 04-08-2018 - 1397-01-19)
+## Version 1.1 
+02-05-2018 - 1397-11-16
 ### Features
-- [Added] `mi-question-mark`
+- Added 2 new icons
+	- Added `icon-username`
+	- Added `icon-password`
 
-### Bug Fix
-- [Fixed] SCSS render problem. The styles are sync now.
-
-
-
-## 1.3.4
-(Updated 03-27-2018 - 1397-01-07)
+# Version 1.0 
+01-28-2018 - 1397-11-08
 ### Features
-- [Added] `mi-stats`
-
-
-
-## 1.3.3
-(Updated 03-26-2018 - 1397-01-06)
-### Features
-- [Added] `mi-dots`
-- [Added] `mi-date-year`
-- [Added] `mi-report-filled`
-- [Added] `mi-monta-run-filled`
-- [Added] `mi-monta-run`
-
-
-
-## 1.3.2.2
-(Updated 03-14-2018 - 1396-12-23)
-### Bug Fixes
-- [Fixed] wrong character assignments on `telegram`, `aparat`, `instagram`, `twitter`,  `aparat`,  `linkedin`, `facebook`
-
-
-
-## 1.3.2.1
-(Updated 03-14-2018 - 1396-12-23)
-### Features
-- Added `mi-cog`
-
-
-
-## 1.3.2.1
-(Updated 03-14-2018 - 1396-12-23)
-### Bug Fix
-- Updated icon size problem `mi-telegram`
-- Updated icon size problem `mi-instagram`
-- Updated icon size problem `mi-twitter`
-- Updated icon size problem `mi-aparat`
-- Updated icon size problem `mi-linkedin`
-- Updated icon size problem `mi-facebook`
-
-
-
-## 1.3.2
-(Updated 03-14-2018 - 1396-12-23)
-### Features
-- Added `mi-telegram`
-- Added `mi-instagram`
-- Added `mi-twitter`
-- Added `mi-aparat`
-- Added `mi-linkedin`
-- Added `mi-facebook`
-
-
-## 1.3.1
-(Updated 03-07-2018 - 1396-12-16)
-### Features
-- Added `mi-login`
-- Added `mi-logout`
-
-
-## 1.3.0
-(Updated 03-06-2018 - 1396-12-15)
-### Features
-- Added `.mi` modifier class
-- Added font size modifiers as `.mi.is-1x`, `.mi.is-2x`, `.mi.is-3x`, `.mi.is-4x`
-- Added spin modifier as `.mi.has-spin`
-- Added pulse spin modifier `.mi.has-pulse`
-- Added pulse effect for notifications or attention modifier by `.mi.is-pulse`
-
-
-## 1.2.2
-(Updated 03-05-2018 - 1396-12-14)
-### Features
-- Added `mi-hamburger`
-- Added `mi-home`
-- Added `mi-home-filled`
-
-## 1.2.1
-(Updated 03-04-2018 - 1396-12-13)
-### Features
-- Added `changelog.md`
-- Added `readme.md`
-### Bug Fixes
-- Moved sample font size to the top of the page
-
-## 1.2 
-(Updated 03-03-2018 - 1396-12-12)
-### Bug Fixes
-- mi-check icon size optimized
-- mi-trash icon vector shape optimized, vector nodes reduced
-- Minor fixes on `demo.html`
-- Fixed mi-trash icon - reduced nodes and optimized icon.
-### Features
-- Added changelog.txt
-- Added 30 new icons
-	- Added `mi-minus`
-	- Added `mi-plus`
-	- Added `mi-report`
-	- Added `mi-bookmark`
-	- Added `mi-bookmark-filled`
-	- Added `mi-edit`
-	- Added `mi-delete`
-	- Added `mi-print`
-	- Added `mi-share`
-	- Added `mi-sort-desc`
-	- Added `mi-sort-asc`
-	- Added `mi-star`
-	- Added `mi-star-filled`
-	- Added `mi-star-half`
-	- Added `mi-trash`
-	- Added `mi-trash-filled`
-	- Added `mi-left`
-	- Added `mi-right`
-	- Added `mi-up`
-	- Added `mi-left-filled`
-	- Added `mi-right-filled`
-	- Added `mi-up-filled`
-	- Added `mi-down-filled`
-	- Added `mi-arrow-down`
-	- Added `mi-arrow-up`
-	- Added `mi-arrow-left`
-	- Added `mi-arrow-right`
-	- Added `mi-sort-down`
-	- Added `mi-sort-up`
-	- Added `mi-checked-small`
-	- Added `mi-checked-small-filled`
+- Rendered Fonts, Exported to and optimized in webfont format.
 - Added metadata and copyright to rendered fonts.
-- Changed CSS selectors to `<span>` class selectors instead of `<i>` for wider range of icon usage by just applying class.
+- CSS selectors set to `<i>`
+- Added changelog.md
+- Added 32 new icons
+	- Added `icon-alert`
+	- Added `icon-arrow-down`
+	- Added `icon-arrow-left`
+	- Added `icon-arrow-right`
+	- Added `icon-arrow-up`
+	- Added `icon-attention`
+	- Added `icon-bottom`
+	- Added `icon-bottom-left`
+	- Added `icon-bottom-right`
+	- Added `icon-bus`
+	- Added `icon-check`
+	- Added `icon-cross`
+	- Added `icon-date-day`
+	- Added `icon-date-days`
+	- Added `icon-date-range`
+	- Added `icon-day`
+	- Added `icon-depart-ariplane`
+	- Added `icon-departure`
+	- Added `icon-failure`
+	- Added `icon-filters`
+	- Added `icon-grid`
+	- Added `icon-heart`
+	- Added `icon-landing`
+	- Added `icon-list`
+	- Added `icon-login`
+	- Added `icon-logout`
+	- Added `icon-minus`
+	- Added `icon-money`
+	- Added `icon-night`
+	- Added `icon-plus`
+	- Added `icon-return-ariplaine`
+	- Added `icon-search`
+	- Added `icon-star-full`
+	- Added `icon-star-half-left`
+	- Added `icon-star-half-right`
+	- Added `icon-star-outline`
+	- Added `icon-destination`
+	- Added `icon-success`
+	- Added `icon-takeoff`
+	- Added `icon-top`
+	- Added `icon-top-left`
+	- Added `icon-top-right`
+	- Added `icon-touribal`
+	- Added `icon-train`
+
+
+```
+
+
+         @@@@@@@@@@@@@@@@@@@@@         
+     @@@     @@@@@@@@@@@@@@    @@@     
+   @@           @@@@@@@@          @@   
+  @@             @@@@@              @  
+ @@     @ @@@     @@@@       @@@    @@ 
+ @@     @@@@@     @@@@     @@@@@    @@ 
+  @@             @@@@@              @@ 
+   @@           @@@@@@@@          @@@@ 
+     @@@    @@@@@@@@@@@@@@@    @@@@@@@ 
+         @@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+                                       
+									   
+  _____   F  ___ A   _   _    ____                  ____      _       _      
+ |_ " _|   \/"_ \/R |"|S| |H |  _"\ A     ___    A | __")uD  /"\  u  |"|     
+   | |     | | | | \| |\| | \| |_) |/    |_"_|    \|  _ \/ \/ _ \/ R | | I   
+  /| |\.-,_| |_| |  | |_| |  |  _ <       | |      | |_) | / ___ \  \| |/__  
+ u |_|U \_)-\___/  <<\___/   |_| \_\    D/| |\S    |____/ /_/   \_\  |_____| 
+ _// \\_     \\   (__) )(    //   \\_.-,_|___|_,-._|| \\_  \\    >>  //  \\  
+(__) (__)   (__)      (__)  (__)  (__)\_)-' '-(_/(__) (__)(__)  (__)(_")("_) 
+
+
+```
 
 
