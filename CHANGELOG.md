@@ -2,10 +2,9 @@
 # Version 2.0
 05-08-2019 - 1398-02-18
 #### Features
-- Added 3 new icons
-	- Added `icon-time`
-	- Added `icon-email`
-	- Added `icon-payment`
+- Added 2 new icons
+	- Added `icon-camera`
+	- Added `icon-tag`
 
 
 
