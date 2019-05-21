@@ -2,11 +2,11 @@
 # Version 2.0
 05-08-2019 - 1398-02-18
 #### Features
+- Renamed font from 'Touribal' to 'Touriwall'
+- Added Emoji characters support
 - Added 2 new icons
 	- Added `icon-camera`
 	- Added `icon-tag`
-
-
 
 
 ## Version 1.3
