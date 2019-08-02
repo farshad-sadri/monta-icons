@@ -1,3 +1,4 @@
+<<<<<<< HEAD:CHANGELOG.md
 
 # Version 2.0
 05-08-2019 - 1398-02-18
@@ -11,6 +12,47 @@
 
 ## Version 1.3
 04-15-2019 - 1398-01-26
+=======
+## 1.4.0
+(Updated 07-16-2018 - 1397-04-25)
+### Features
+- [Added] total of 29 icons as follows:
+    - [Added] `mi-fame-filled`
+    - [Added] `mi-fame`
+    - [Added] `mi-gift`
+    - [Added] `mi-achievement`
+    - [Added] `mi-income`
+    - [Added] `mi-wallet`
+    - [Added] `mi-exam`
+    - [Added] `mi-questions`
+    - [Added] `mi-summary`
+    - [Added] `mi-book`
+    - [Added] `mi-bookmark-2`
+    - [Added] `mi-bookmark-2-filled`
+    - [Added] `mi-muscle`
+    - [Added] `mi-muscle-filled`
+    - [Added] `mi-watched`
+    - [Added] `mi-seen`
+    - [Added] `mi-share-2`
+    - [Added] `mi-message`
+    - [Added] `mi-compose`
+    - [Added] `mi-send`
+    - [Added] `mi-emoji`
+    - [Added] `mi-cameera`
+    - [Added] `mi-clip`
+    - [Added] `mi-megaphone`
+    - [Added] `mi-timer`
+    - [Added] `mi-clock`
+    - [Added] `mi-hourglass`
+    - [Added] `mi-calendar`
+    - [Added] `mi-bell`
+
+
+
+
+## 1.3.8
+(Updated 06-09-2018 - 1397-03-19)
+>>>>>>> parent of 433d400... 1.4.1:changlog.md
 ### Features
 - Added 3 new icons
 	- Added `icon-time`

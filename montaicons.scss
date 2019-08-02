@@ -1,0 +1,572 @@
+$mi-version: "1.3.7";
+/**
+*
+*	Name:			Monta Icons Font
+*	Version:		$mi-version
+*	Author:			Farshad Sadri (farshadsadri.com)
+*	Updated on:		May 01, 2018
+*	Created on:		Nov 14, 2017
+*	Website:		http://monta.ir
+*	License:		Apache License Version 2.0
+*/
+
+@import "variables";
+
+@font-face {
+  font-family: 'monta-icons';
+  src:  url('#{$icomoon-font-path}/monta-icons.eot?' + $mi-version);
+  src:  url('#{$icomoon-font-path}/monta-icons.eot?' + $mi-version + '#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/monta-icons.ttf?' + $mi-version) format('truetype'),
+    url('#{$icomoon-font-path}/monta-icons.woff?' + $mi-version) format('woff'),
+    url('#{$icomoon-font-path}/monta-icons.svg?' + $mi-version + '#monta-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.mi, [class^="mi-"], [class*=" mi-"] { /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'monta-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  &.is-1x {font-size: 1rem}
+  &.is-1-5x{font-size: 1.5rem}
+  &.is-2x {font-size: 2rem}
+  &.is-3x {font-size: 3rem}
+  &.is-4x {font-size: 4rem}
+  &.is-pre {margin-left: 0.5rem}
+
+  &.has-spin {
+    -webkit-animation: has-spin 1.5s infinite linear;
+    animation: has-spin 1.5s infinite linear;
+  }
+  .has-pulse {
+    -webkit-animation: has-spin 900ms infinite steps(8);
+    animation: has-spin 900ms infinite steps(8);
+  }
+  .is-pulse {
+    position: relative;
+    box-shadow: 0 0 0 0 rgba(232, 76, 61, 0.7);
+    border-radius: 50%;
+    color: #ff470f;
+    -webkit-animation: is-pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    animation: is-pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    /*color: white;*/
+    padding: 0.4em;
+
+    &:hover {-webkit-animation: none;  animation: none}
+  }
+}
+
+@-webkit-keyframes has-spin {
+  0% {-webkit-transform: rotate(0deg);transform: rotate(0deg); }
+  100% {-webkit-transform: rotate(360deg);transform: rotate(360deg); } }
+@keyframes has-spin {
+  0% {-webkit-transform: rotate(0deg);transform: rotate(0deg); }
+  100% {-webkit-transform: rotate(360deg);transform: rotate(360deg); } }
+@-webkit-keyframes is-pulse {to {box-shadow: 0 0 0 1em rgba(232, 76, 61, 0);}}
+@keyframes is-pulse {to {box-shadow: 0 0 0 1em rgba(232, 76, 61, 0);}}
+
+@function unicode($str) {
+  @return unquote("\"") + $str + unquote("\"");
+}
+
+
+
+.mi-monta {
+  &:before {
+    content: unicode($mi-monta);
+  }
+}
+.mi-mini-monta {
+  &:before {
+    content: unicode($mi-mini-monta);
+  }
+}
+.mi-mini-monta-filled {
+  &:before {
+    content: unicode($mi-mini-monta-filled);
+  }
+}
+.mi-minus {
+  &:before {
+    content: unicode($mi-minus);
+  }
+}
+.mi-plus {
+  &:before {
+    content: unicode($mi-plus);
+  }
+}
+.mi-cross {
+  &:before {
+    content: unicode($mi-cross);
+  }
+}
+.mi-checked-small {
+  &:before {
+    content: unicode($mi-checked-small);
+  }
+}
+.mi-checked-small-filled {
+  &:before {
+    content: unicode($mi-checked-small-filled);
+  }
+}
+.mi-check {
+  &:before {
+    content: unicode($mi-check);
+  }
+}
+.mi-heart {
+  &:before {
+    content: unicode($mi-heart);
+  }
+}
+.mi-report {
+  &:before {
+    content: unicode($mi-report);
+  }
+}
+.mi-heart-filled {
+  &:before {
+    content: unicode($mi-heart-filled);
+  }
+}
+.mi-bookmark {
+  &:before {
+    content: unicode($mi-bookmark);
+  }
+}
+.mi-bookmark-filled {
+  &:before {
+    content: unicode($mi-bookmark-filled);
+  }
+}
+.mi-edit {
+  &:before {
+    content: unicode($mi-edit);
+  }
+}
+.mi-delete {
+  &:before {
+    content: unicode($mi-delete);
+  }
+}
+.mi-print {
+  &:before {
+    content: unicode($mi-print);
+  }
+}
+.mi-share {
+  &:before {
+    content: unicode($mi-share);
+  }
+}
+.mi-sort-desc {
+  &:before {
+    content: unicode($mi-sort-desc);
+  }
+}
+.mi-sort-asc {
+  &:before {
+    content: unicode($mi-sort-asc);
+  }
+}
+.mi-star {
+  &:before {
+    content: unicode($mi-star);
+  }
+}
+.mi-star-filled {
+  &:before {
+    content: unicode($mi-star-filled);
+  }
+}
+.mi-star-half {
+  &:before {
+    content: unicode($mi-star-half);
+  }
+}
+.mi-trash {
+  &:before {
+    content: unicode($mi-trash);
+  }
+}
+.mi-trash-filled {
+  &:before {
+    content: unicode($mi-trash-filled);
+  }
+}
+.mi-down {
+  &:before {
+    content: unicode($mi-down);
+  }
+}
+.mi-left {
+  &:before {
+    content: unicode($mi-left);
+  }
+}
+.mi-right {
+  &:before {
+    content: unicode($mi-right);
+  }
+}
+.mi-up {
+  &:before {
+    content: unicode($mi-up);
+  }
+}
+.mi-down-filled {
+  &:before {
+    content: unicode($mi-down-filled);
+  }
+}
+.mi-left-filled {
+  &:before {
+    content: unicode($mi-left-filled);
+  }
+}
+.mi-right-filled {
+  &:before {
+    content: unicode($mi-right-filled);
+  }
+}
+.mi-up-filled {
+  &:before {
+    content: unicode($mi-up-filled);
+  }
+}
+.mi-arrow-down {
+  &:before {
+    content: unicode($mi-arrow-down);
+  }
+}
+.mi-arrow-up {
+  &:before {
+    content: unicode($mi-arrow-up);
+  }
+}
+.mi-arrow-left {
+  &:before {
+    content: unicode($mi-arrow-left);
+  }
+}
+.mi-arrow-right {
+  &:before {
+    content: unicode($mi-arrow-right);
+  }
+}
+.mi-frame {
+  &:before {
+    content: unicode($mi-frame);
+  }
+}
+.mi-search {
+  &:before {
+    content: unicode($mi-search);
+  }
+}
+.mi-zoom-in {
+  &:before {
+    content: unicode($mi-zoom-in);
+  }
+}
+.mi-zoom-out {
+  &:before {
+    content: unicode($mi-zoom-out);
+  }
+}
+.mi-sort-down {
+  &:before {
+    content: unicode($mi-sort-down);
+  }
+}
+.mi-sort-up {
+  &:before {
+    content: unicode($mi-sort-up);
+  }
+}
+.mi-hamburger {
+  &:before {
+    content: unicode($mi-hamburger);
+  }
+}
+.mi-home {
+  &:before {
+    content: unicode($mi-home);
+  }
+}
+.mi-home-filled {
+  &:before {
+    content: unicode($mi-home-filled);
+  }
+}
+.mi-login {
+  &:before {
+    content: unicode($mi-login);
+  }
+}
+.mi-logout {
+  &:before {
+    content: unicode($mi-logout);
+  }
+}
+.mi-instagram {
+  &:before {
+    content: unicode($mi-instagram);
+  }
+}
+.mi-telegram {
+  &:before {
+    content: unicode($mi-telegram);
+  }
+}
+.mi-aparat {
+  &:before {
+    content: unicode($mi-aparat);
+  }
+}
+.mi-twitter {
+  &:before {
+    content: unicode($mi-twitter);
+  }
+}
+.mi-facebook {
+  &:before {
+    content: unicode($mi-facebook);
+  }
+}
+.mi-linkedin {
+  &:before {
+    content: unicode($mi-linkedin);
+  }
+}
+.mi-cog {
+  &:before {
+    content: unicode($mi-cog);
+  }
+}
+.mi-dots {
+  &:before {
+    content: unicode($mi-dots);
+  }
+}
+.mi-date-year {
+  &:before {
+    content: unicode($mi-date-year);
+  }
+}
+.mi-report-filled {
+  &:before {
+    content: unicode($mi-report-filled);
+  }
+}
+.mi-monta-run-filled {
+  &:before {
+    content: unicode($mi-monta-run-filled);
+  }
+}
+.mi-monta-run {
+  &:before {
+    content: unicode($mi-monta-run);
+  }
+}
+.mi-stats {
+  &:before {
+    content: unicode($mi-stats);
+  }
+}
+.mi-question-mark {
+  &:before {
+    content: unicode($mi-question-mark);
+  }
+}
+.mi-play {
+  &:before {
+    content: unicode($mi-play);
+  }
+}
+.mi-undo {
+  &:before {
+    content: unicode($mi-undo);
+  }
+}
+.mi-retry {
+  &:before {
+    content: unicode($mi-retry);
+  }
+}
+.mi-notes {
+  &:before {
+    content:  unicode($mi-notes);
+  }
+}
+.mi-notes-filled {
+  &:before {
+    content: unicode($mi-notes-filled);
+  }
+}
+.mi-fame-filled {
+  &:before {
+    content: unicode($mi-fame-filled);
+  }
+}
+.mi-fame {
+  &:before {
+    content: unicode($mi-fame);
+  }
+}
+.mi-gift {
+  &:before {
+    content: unicode($mi-gift);
+  }
+}
+.mi-achievement {
+  &:before {
+    content: unicode($mi-achievement);
+  }
+}
+.mi-income {
+  &:before {
+    content: unicode($mi-income);
+  }
+}
+.mi-wallet {
+  &:before {
+    content: unicode($mi-wallet);
+  }
+}
+.mi-exam {
+  &:before {
+    content: unicode($mi-exam);
+  }
+}
+.mi-questions {
+  &:before {
+    content: unicode($mi-questions);
+  }
+}
+.mi-summary {
+  &:before {
+    content: unicode($mi-summary);
+  }
+}
+.mi-book {
+  &:before {
+    content: unicode($mi-book);
+  }
+}
+.mi-bookmark-2 {
+  &:before {
+    content: unicode($mi-bookmark-2);
+  }
+}
+.mi-bookmark-2-filled {
+  &:before {
+    content: unicode($mi-bookmark-2-filled);
+  }
+}
+.mi-muscle {
+  &:before {
+    content: unicode($mi-muscle);
+  }
+}
+.mi-muscle-filled {
+  &:before {
+    content: unicode($mi-muscle-filled);
+  }
+}
+.mi-watched {
+  &:before {
+    content: unicode($mi-watched);
+  }
+}
+.mi-seen {
+  &:before {
+    content: unicode($mi-seen);
+  }
+}
+.mi-share-2 {
+  &:before {
+    content: unicode($mi-share-2);
+  }
+}
+.mi-message {
+  &:before {
+    content: unicode($mi-message);
+  }
+}
+.mi-compose {
+  &:before {
+    content: unicode($mi-compose);
+  }
+}
+.mi-send {
+  &:before {
+    content: unicode($mi-send);
+  }
+}
+.mi-emoji {
+  &:before {
+    content: unicode($mi-emoji);
+  }
+}
+.mi-cameera {
+  &:before {
+    content: unicode($mi-cameera);
+  }
+}
+.mi-clip {
+  &:before {
+    content: unicode($mi-clip);
+  }
+}
+.mi-megaphone {
+  &:before {
+    content: unicode($mi-megaphone);
+  }
+}
+.mi-timer {
+  &:before {
+    content: unicode($mi-timer);
+  }
+}
+.mi-clock {
+  &:before {
+    content: unicode($mi-clock);
+  }
+}
+.mi-hourglass {
+  &:before {
+    content: unicode($mi-hourglass);
+  }
+}
+.mi-calendar {
+  &:before {
+    content: unicode($mi-calendar);
+  }
+}
+.mi-bell {
+  &:before {
+    content: unicode($mi-bell);
+  }
+}
+.mi-pie {
+  &:before {
+    content: unicode($mi-pie);
+  }
+}
+.mi-chart {
+  &:before {
+    content: unicode($mi-chart);
+  }
+}
+
